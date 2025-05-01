@@ -1,0 +1,100 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.header {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text color */
+  padding: 20px; /* Add some padding */
+}
+
+.navbar {
+  display: flex;
+  justify-content: center; /* Center the navbar */
+  background-color: #f2f2f2; /* Light grey background for navbar */
+  padding: 10px; /* Padding for navbar */
+}
+
+.navbar a {
+  margin: 0 15px; /* Spacing between links */
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Dark grey text */
+}
+
+.navbar a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.dosha-info {
+  margin: 20px; /* Spacing around dosha info */
+}
+
+.footer {
+  background-color: #4CAF50; /* Same green as header */
+  color: white; /* White text color */
+  text-align: center; /* Center footer text */
+  padding: 10px; /* Padding for footer */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-media {
+  margin: 10px 0;
+}
+
+.social-media a {
+  margin: 0 10px;
+}
+
+.social-media img {
+  width: 30px; /* Adjust size as needed */
+  height: 30px;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #333; /* Link color */
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Floating Voice Chatbot Button */
+.voice-chatbot-button {
+  position: fixed;
+  bottom: 80px; /* Adjusted to move it slightly upwards */
+  right: 20px;
+  background-color: #007bff;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+}
+
+.voice-chatbot-button img {
+  width: 40px;
+  height: 40px;
+}
+
+.voice-chatbot-button:hover {
+  transform: scale(1.1);
+}
+
+

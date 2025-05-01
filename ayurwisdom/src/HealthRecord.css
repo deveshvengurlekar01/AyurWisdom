@@ -1,0 +1,45 @@
+.health-record-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  canvas {
+    margin-top: 20px;
+  }
+  
+  .download-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .download-btn:hover {
+    background-color: #45a049;
+  }
+  .health-records {
+    margin: 20px;
+  }
+  
+  .chart-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #36A2EB;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #FF6384;
+  }
+  

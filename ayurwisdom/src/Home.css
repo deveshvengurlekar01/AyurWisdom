@@ -1,0 +1,50 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.dosha-cards-container {
+    display: flex;
+    justify-content: space-between; /* Space between cards */
+    flex-wrap: nowrap; /* Prevent wrapping to the next line */
+    padding: 20px;
+    gap: 15px; /* Add some spacing between the cards */
+}
+
+.dosha-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 30%; /* Ensures 3 cards fit in a row */
+    padding: 20px;
+    background-color: #f9f9f9;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify; /* Justify the text within the cards */
+}
+
+.dosha-card:hover {
+    transform: scale(1.05);
+}
+
+.dosha-image {
+    width: 100%; /* Responsive image */
+    height: 200px; /* Increased image size */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.dosha-card h3 {
+    margin-top: 15px;
+    font-size: 24px; /* Increase font size for headings */
+    text-align: center;
+}
+
+.dosha-card p {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: justify; /* Justify the text for descriptions */
+    font-style: italic;
+    color: #130d4c;
+}
